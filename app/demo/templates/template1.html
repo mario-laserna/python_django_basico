@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" /> 
+	<title>template para django</title>
+</head>
+<body>
+	{{hora|date:"d M Y"}} -- <strong>{{usuario}}</strong>
+	<ul>
+	{% for item in rango %}
+		<li>{{item}}</li>
+	{% endfor %}
+	</ul>
+</body>
+</html>
